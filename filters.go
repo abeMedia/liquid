@@ -37,4 +37,5 @@ func init() {
 	core.RegisterFilter("default", filters.DefaultFactory)
 	core.RegisterFilter("reverse", filters.ReverseFactory)
 	core.RegisterFilter("date", filters.DateFactory)
+	core.RegisterFilter("jsonify", filters.JsonifyFactory)
 }
